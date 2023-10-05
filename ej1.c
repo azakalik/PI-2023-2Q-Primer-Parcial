@@ -11,6 +11,7 @@ int filaEsCapicua(char fila[COLS]){
     return esCapicua;
 }
 
+//se podria haber usado memcpy tambien
 int copiarFila(char filaACopiar[COLS], char filaDondeCopiar[COLS]){
     for (int i = 0; i < COLS; i++){
         filaDondeCopiar[i] = filaACopiar[i];
